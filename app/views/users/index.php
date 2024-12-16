@@ -21,7 +21,7 @@ ob_start(); ?>
                 <td><?= htmlspecialchars($user['email']) ?></td>
                 <td>
                     <a href="/edit/<?= $user['id'] ?>" class="btn btn-warning btn-sm">Edit</a>
-                    <a href="/delete/<?= $user['id'] ?>" class="btn btn-danger btn-sm">Delete</a>
+                    <a href="/delete/<?= $user['id'] ?> " onclick=' return confirm("Voulez vous supprimer cet Utilisateur ?")' class="btn btn-danger btn-sm">Delete</a>
                 </td>
             </tr>
         <?php endforeach; ?>

@@ -55,7 +55,7 @@ Le projet suit l'architecture MVC classique :
 1. Clonez le dépôt :
 
    ```bash
-   git clone <url_du_depot>
+   git clone https://github.com/kbma/mvc_user_management.git
    ```
 
 2. Configurez votre base de données dans `config/database.php`.
@@ -78,15 +78,15 @@ Le projet suit l'architecture MVC classique :
 
 ### Formulaire d'ajout d'utilisateur
 
-![Formulaire d'ajout](screenshots/user_create.png)
+![Formulaire d'ajout](screenshots/user_add.jpg)
 
 ### Modification d'un utilisateur
 
-![Formulaire de modification](screenshots/user_edit.png)
+![Formulaire de modification](screenshots/user_edit.jpg)
 
 ### Confirmation de suppression
 
-![Confirmation de suppression](screenshots/user_delete.png)
+![Confirmation de suppression](screenshots/user_delete.jpg)
 
 ## Contributions
 
