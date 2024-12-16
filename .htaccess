@@ -1,0 +1,6 @@
+# © 2024 Kamel Abbassi. Tous droits réservés.
+# Créé par Kamel Abbassi - www.linkedin.com/in/kamelabbassi
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]
